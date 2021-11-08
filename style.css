@@ -3,11 +3,9 @@
     margin: 0;
     padding: 0;
 }
-
 html{
     font-size: 62.5%;
 }
-
 body{
     font-family:"Lato", sans-serif;
     line-height: 1;
@@ -18,7 +16,6 @@ body{
       /*****************************/
     /*     General Reusable Components    */
   /*****************************/
-
   .heading-primary{
     font-size: 5.2rem;
     /* text-transform: uppercase; */
@@ -28,9 +25,7 @@ body{
     color: #dddddd;
     letter-spacing: -0.5px;
     margin-bottom: 3.2rem;
-}
-
-    
+}  
 .btn:link, .btn:visited{
     display: inline-block;
     background-color: #fff;
@@ -42,8 +37,6 @@ body{
     font-weight: 600;
 
 }
-
-
 .btn-full:link,
 .btn-full:visited{
     background-color: #222222;
@@ -61,7 +54,6 @@ body{
     border: solid 1px #222222;
     transition:all 0.1s ease-in;
 }
-
 .btn-full:hover,
 .btn-full:active{
     background-color: #fff;
@@ -71,7 +63,6 @@ body{
     font-size: 2.1rem;
     padding: 1.4rem 3.0rem;
 }
-
 .btn-outline:hover,
 .btn-outline:active{
     background: #222222;
@@ -82,12 +73,9 @@ body{
     font-size: 2.1rem;
     padding: 1.2rem 2.8rem;
 }
-
-
       /*****************************/
     /*          Header           */
   /*****************************/
-
 header{
     display: flex;
     justify-content: space-between;
@@ -97,32 +85,22 @@ header{
     background-color: #333333;
 
 }
-
-
 .logo{
     font-family: "Lato",sans-serif;
     float: left;
     font-size: 3.8rem;
-
-    
-
 }
 .logo a{
     color: #cccccc;
     text-decoration: none;
 }
-
       /*****************************/
     /*     Navigation            */
   /*****************************/
-
-
-
 nav{
     color: #cccccc;
     float: right;
 }
-
 .main-nav-list{
     position: relative;
     display: flex;
@@ -134,23 +112,14 @@ nav{
     list-style: none;
     user-select: none;
 }
-
 .main-nav-list li > a:hover{
     color: #469DFF;
     transition: 0.3s;
-
 }
 .main-nav-list li a{
     text-decoration: none;
     color: #fff;
 }
-
-
-
-
-
-
-
       /*****************************/
     /*     Hero Section          */
   /*****************************/
@@ -168,8 +137,6 @@ nav{
     margin: 0 auto;
     padding:0 3.2rem;
 }
-
-
 .hero-img{
     width: 120%;
     padding: 20px;
@@ -177,17 +144,12 @@ nav{
     border: 10px rgba(255, 255, 255, 0.301) solid;
     margin: 0 auto;   
 }
-
-
-
 .hero-description{
     font-size: 2rem;
     line-height: 1.6;
     margin-bottom: 4.8rem;
     color: #999999;
 }
-
-
 .customer1,
 .customer2,
 .customer3,
@@ -197,18 +159,15 @@ nav{
     width: 200px;
     height: 200px;
 }
-
 .delivered-boxes{
     display: flex;
     margin-top: 8rem;
     align-items: center;
     gap: 1.6rem;
 }
-
 .delivered-imgs{
     display: flex;
 }
-
 .delivered-imgs img{
     height: 4.8rem;
     width: 4.8rem;
@@ -217,11 +176,9 @@ nav{
     border: 3px solid orange;
     margin-right: -1.6rem;
 }
-
 .delivered-imgs img:last-child{
     margin:0;
 }
-
 .delivered-text{
     font-size: 1.8rem;
     font-weight: 600;
@@ -231,21 +188,13 @@ nav{
 .delivered-text span{
     color: #e2e0e0;
 }
-
-
-
-
-
-
-
-
       /*************************************/
     /*     How it works Section          */
   /*************************************/
 
 .section-how{
     padding: 9.6rem 0;
-    background-color: orangered;
+    background-color: wheat;
 }
 .section-how div{
     margin: 0 0 0 180px;
@@ -290,96 +239,171 @@ nav{
     align-items: center;
 }
 
-.section-how{
-    display: grid;
-    max-width: 130rem;
-    margin: 0 auto;
-    align-items: center;
-    gap: 9.6rem;
-    margin: 0 auto;
-    padding:0 3.2rem;
-    background-color: #fff;
-    padding: 9.6rem 0;
-}
 
-.step-number{
+.section-how {
+    padding: 9.6rem 0;
+  }
+  
+  .step-number {
     font-size: 8.6rem;
     font-weight: 600;
     color: #ddd;
     margin-bottom: 1.2rem;
-
-}
-.heading-secondary{
-    font-size: 4.4rem;
-    line-height: 2.2rem;
-    font-weight: bold;
-}
-.container .subheading{
-    padding-bottom: 400px;
-}
-.step-description {
-    font-size: 1.8rem;
-    line-height: 2rem;
   }
+  
+  .step-description {
+    font-size: 1.8rem;
+    line-height: 1.8;
+  }
+  
   .step-img-box {
     position: relative;
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 50%;
   }
-
-.step-text-box{
-    border-radius: 0%;
-    width: 115%;
-}
-.step-text-box h3{
-    font-size: 40px;
-}
-.step-img-box{
-    border-radius: 5% 50% 50% 5%;
-}
-.step-img-box img{
-    width: 350%;
-    margin: 0 0 50px 50%;
-}
-.step-number{
+  
+  .step-img-box::before,
+  .step-img-box::after {
+    content: "";
     display: block;
-    position: relative;
-    padding: 0 0 5px 5px;
-    left: -175px;
-    top: -100px;
-    color: #cccccc
-    }
-.step-description{
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .step-img-box::before {
+    width: 60%;
+    /* height: 60%; */
+  
+    /* 60% of parent's width */
+    padding-bottom: 60%;
+  
+    background-color: #fdf2e9;
+    z-index: -2;
+  }
+  
+  .step-img-box::after {
+    width: 45%;
+    padding-bottom: 45%;
+    background-color: #fae5d3;
+    z-index: -1;
+  }
+  
+  .step-img {
+    width: 35%;
+    /* z-index: 10; */
+  }
+  .step-text-box1,
+  .step-text-box2,
+  .step-text-box3{
+    font-family: "Rubik", sans-serif;
+    line-height: 1;
+    font-weight: 400;
+    color: #555;
+  }
+/* MEAL */
+.section-meals{
+    padding: 9.6rem 0;
+}
+.meal{
+    box-shadow: 0 2.4rem 4.8rem rgba(0,0,0,0.075);
+    border-radius: 11px;
+    overflow: hidden;
+    transition: all 0.4s;
+}
+.meals:hover{
+    transform: translate(-1.2rem);
+    box-shadow: 0 3.2rem 6.4rem rgba(0,0,0,0.06);
+}
+.meal-content{
+    padding: 3.2 rem 4.8rem 4.8rem 4.8rem;
+}
+.meal-tags{
+    margin-bottom: 1.2rem;
+    display: flex;
+    gap: 0.4rem;
+}
+.tag{
+    display: inline-block;
+    padding: 0.4rem 0.8rem;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    color: #333;
+    border-radius: 100px;
+    font-weight: 600;
+}
+.tag--vegetarian{
+    background: #51cf66;
+}
+.tag--vegan{
+    background-color: #94d82d;
+}
+.tag--paleo{
+    background-color: #ffd43b;
+}
+.meal-title{
     font-size: 2.4rem;
-    letter-spacing: .5px;
-    
+    color: #333;
+    font-weight: 600;
+    margin-bottom: 3.2rem;
 }
-.step-text-box h3{
-    font-size: 2rem;
-    text-align: left;
-}
-/* ///////////////////////Step 01///////////////////// */
-
-
-/* .step-img-box img{
-    width: 50%;
-    }
-.step-text-box img{
-    width: 50%;
-} */
-/* .section-how .container{
-    background-color: #777777;
-} */
-/* .heading-secondary{
-    color: wheat;
+.meal-attributes {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+  .meal-attribute {
+    font-size: 1.8rem;
+    display: flex;
+    align-items: center;
+    gap: 1.6rem;
+  }
+  .meal-icon {
+    height: 2.4rem;
+    width: 2.4rem;
+    color: #e67e22;
+  }
+  .meal-img {
+    width: 100%;
+  }
+  .all-recipes {
     text-align: center;
+    font-size: 1.8rem;
+  }
+/* 
+
+
+.meal-attributes {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
 }
-.subheading{
-    color: wheat;
-    text-align: center;
-} */
 
+.meal-attribute {
+  font-size: 1.8rem;
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+}
 
+.meal-icon {
+  height: 2.4rem;
+  width: 2.4rem;
+  color: #e67e22;
+}
+
+.meal-img {
+  width: 100%;
+}
+
+.all-recipes {
+  text-align: center;
+  font-size: 1.8rem;
+}
+ */
 
