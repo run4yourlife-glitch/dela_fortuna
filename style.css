@@ -140,8 +140,8 @@ nav{
 .hero-img{
     width: 120%;
     padding: 20px;
-    border-radius: 40rem 20rem;
-    border: 10px rgba(255, 255, 255, 0.301) solid;
+    border-radius: 10rem 5rem;
+    border: .5rem solid #fff;
     margin: 0 auto;   
 }
 .hero-description{
