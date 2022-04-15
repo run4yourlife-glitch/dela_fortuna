@@ -86,9 +86,7 @@ header{
 
 }
 .logo{
-    font-family: "Lato",sans-serif;
-    float: left;
-    font-size: 3.8rem;
+  width: 170px;
 }
 .logo a{
     color: #cccccc;
