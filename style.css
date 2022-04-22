@@ -46,6 +46,12 @@ body{
     line-height: 1.6;
 
 }
+.sm-photo{
+    width: 20rem;
+}
+.br1{
+    border-radius: 1rem;
+}
 .btn:link, .btn:visited{
     display: inline-block;
     background-color: #fff;
@@ -286,7 +292,11 @@ nav{
 /* Breads Section */
 .breads{
     height: 100vh;
-    margin-left: 25rem;
-    margin-right: 25rem;
-
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items:flex-start;
+    gap: 10rem;
+}
+.breads>div{
 }
