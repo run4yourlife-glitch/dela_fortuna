@@ -39,9 +39,11 @@ body{
     color: var(--light-green);
 }
 .heading-tertiary{
+    width: 100%;
     font-size: 3rem;
     margin-bottom: 3rem;
     color: var(--light-green);
+    line-height: 1.6;
 
 }
 .btn:link, .btn:visited{
@@ -94,16 +96,18 @@ body{
 
 .step-number{
     color: var(--ultra-light-green);
-    font-size: 5rem;
+    font-size: 8.6rem;
     font-weight: bold;
     font-family:Arial, Helvetica, sans-serif;
     text-align: left;
     width: 100%;
+    margin-bottom: 3rem;
 }
 .step-description{
     font-size: 2rem;
     text-align: justify;
     color: var(--slight-dark-green);
+    line-height: 1.6;
 }
 
 .flex-center-center{
@@ -123,6 +127,7 @@ body{
 
 .grid{
     display: grid;
+    column-gap: 6rem;
     gap: 9.6rem;
 
 }
@@ -268,13 +273,62 @@ nav{
 
 
 .section_How div div{
-    padding: 100px;
     font-size: 50px;
     /* background-color: rgba(51, 51, 51, 0.467); */
-    margin-bottom: 3rem;
+    margin: 5rem;
 }
  
 .step-img{
-    width: 60%;
+    width: 80%;
 }
 
+/* Breads Section */
+.section-breads{
+    margin-bottom: 3rem;
+    padding: 3rem;
+}
+.breads-img{
+    width: 240px;
+    margin-bottom: 1.5rem;
+    border-radius: 1rem;
+}
+
+.meal{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 45rem;
+    background-color: #6B9D4A;
+    border-radius: 1rem;
+    margin-top: 3rem;
+    
+}
+.meal-attributes{
+    font-family: 'lato';
+    font-size: 2rem;
+    list-style: none;
+    color: #ffffff;
+}
+.meal-title{
+    margin:  1rem auto;
+    font-weight: bold;
+    font-size: 2rem;
+    color: rgb(255, 100, 100);
+}
+.tag{
+    font-size: 2rem;
+    background-color: rgba(255, 255, 0, 0.512);
+    line-height: 2;
+    padding: 1rem;
+    margin-top: 2rem;
+    border-radius: 1rem;
+    font-weight: bold;
+
+}
+.meal-content{
+    width: 80%;
+    background-color: #2d452f;
+    padding: 1rem;
+    border-radius: 1rem 1rem 2rem 2rem;
+}
