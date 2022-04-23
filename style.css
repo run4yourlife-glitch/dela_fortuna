@@ -23,6 +23,14 @@ body{
     --ultra-light-green: #cfe2ce;
 
 }
+.br1rem{
+    border-radius: 1rem;
+}
+.country-bread{
+    text-align: left;
+    width: auto;
+    padding:1rem 1rem 1rem 0rem;
+}
   .heading-primary{
     font-size: 5.2rem;
     /* text-transform: uppercase; */
@@ -46,8 +54,19 @@ body{
     line-height: 1.6;
 
 }
+.dark{
+    color:  var(--dark-green);
+}
+.heading-quaternary{
+    width: 100%;
+    font-size: 2rem;
+    margin-bottom: 3rem;
+    color: var(--light-green);
+    line-height: 1.6;
+
+}
 .sm-photo{
-    width: 20rem;
+    width: 30rem;
 }
 .br1{
     border-radius: 1rem;
@@ -99,7 +118,10 @@ body{
     /* font-size: 2.1rem; */
     /* padding: 1.2rem 2.8rem; */
 }
-
+/* Typography */
+.country-bread{
+    font-size: 2rem;
+}
 .step-number{
     color: var(--ultra-light-green);
     font-size: 8.6rem;
@@ -228,9 +250,10 @@ nav{
 }
 .hero-description{
     font-size:1.5rem;
-    line-height: 1.2px;
     margin-bottom: 4.8rem;
     color: #999999;
+    height: 3rem;
+    text-justify: inter-word;
 }
 .customer1,
 .customer2,
@@ -290,8 +313,17 @@ nav{
 }
 
 /* Breads Section */
-.breads{
+.sec-breads{
     height: 100vh;
+}
+.sec-breads div div{
+    padding: 3rem;
+    background-color: var(--ultra-light-green);
+}
+.sec-breads>div:nth-child(1)>p{
+    padding: 5rem;
+}
+.breads{
     display: flex;
     flex-direction: row;
     justify-content:center;
@@ -300,3 +332,95 @@ nav{
 }
 .breads>div{
 }
+
+.columns {
+    column-count: 3;
+    column-gap: 45px;
+    column-rule: 2px outset #FFF0DF;
+  }
+
+.columns > div{
+    background-color: #111111;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
