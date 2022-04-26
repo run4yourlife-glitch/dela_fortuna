@@ -206,6 +206,9 @@ body{
     column-gap: 6rem;
     row-gap: 9.6rem;
 }
+.grid:last-child{
+    margin-bottom: 9.6rem;
+}
 .grid--center-v{
     align-items: center;
 }
@@ -217,6 +220,9 @@ body{
 }
 .grid--4-cols{
     grid-template-columns: repeat(4,1fr);
+}
+.grid:not(:last-child){
+    margin-bottom: 9.6rem;
 }
 .section_How {
     background-color: #469DFF;
@@ -599,6 +605,34 @@ nav{
 .section-pricing{
     padding: 9.6rem;
 }
+.pricing-plan{
+    border-radius: 2rem;
+    padding: 4.8rem;
+    width: 75%;
+}
+.pricing-plan--starter{
+    justify-self: center;
+}
+
+.pricing-plan--complete{
+    position: relative;
+    background-color: #fdf2e9;
+    overflow: hidden;
+}
+.pricing-plan--complete::after{
+    content: "Best value";
+    position: absolute;
+    top:2rem;
+    right: -4rem;
+    text-transform: uppercase;
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: #222222;
+    background-color: #ffd43b;
+    padding: 1rem 3.2rem;
+    border-radius: 2rem;
+    transform: rotate(45deg);
+}
 .plan-header{
     text-align: center;
     margin-bottom: 4.8rem;
@@ -615,7 +649,7 @@ nav{
 }
 .plan-price{
     font-size: 6.2rem;
-    font-weight: 600;
+    font-weight: 1000;
     color: #333;
     text-align: center;
     margin-bottom: 1.6rem;
@@ -630,7 +664,9 @@ nav{
     font-size: 1.6rem;
     line-height: 1.8;
     text-align: center;
+    margin-bottom: 3.2rem;
     color: var(--dark-green);
+    font-weight: 600;
 }
 
 .plan-sign-up{
