@@ -99,16 +99,7 @@ body{
     font-weight: 600;
 
 }
-.btn-full:link,
-.btn-full:visited{
-    background-color: #222222;
-    color: #fff;
-    border: solid 1px #fff;
-    transition:all 0.1s ease-in;
-    font-family: 'Rubik', sans-serif;
-    font-weight: bold;
-    letter-spacing: 1px;
-}
+
 .btn-outline:link,
 .btn-outline:visited{
     background-color: #fff;
@@ -116,8 +107,38 @@ body{
     border: solid 1px #222222;
     transition:all 0.1s ease-in;
 }
+.btn-full:link,
+.btn-full:visited{
+    background-color: #222222;
+    color: #fff;
+    transition:all 0.1s ease-in;
+    font-family: 'Rubik', sans-serif;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
 .btn-full:hover,
 .btn-full:active{
+    background-color: var(--light-green);
+    color: #fff;
+    transition: all 0.3s ease-in;
+    /* letter-spacing: 1px; */
+    /* font-size: 2.1rem; */
+    /* padding: 1.4rem 3.0rem; */
+}
+/* btn pricing */
+.btn-fullpricing:link,
+.btn-fullpricing:visited{
+    background-color: #fff;
+    color: var(--light-green);
+    transition:all 0.1s ease-in;
+    font-family: 'Rubik', sans-serif;
+    font-weight: bold;
+    letter-spacing: 1px;
+    border: solid 1px var(--light-green);
+
+}
+.btn-fullpricing:hover,
+.btn-fullpricing:active{
     background-color: var(--light-green);
     color: #fff;
     transition: all 0.3s ease-in;
@@ -494,9 +515,12 @@ nav{
     gap: 1.6rem;
 
 }
+.list-item span{
+    font-weight: 600;
+}
 
       /*****************************/
-    /*   Testimonial Section          */
+    /*   Testimonial Section      */
   /*****************************/
 
 
@@ -505,6 +529,8 @@ nav{
     display: grid;
     grid-template-columns: 55fr 45fr;
     align-items: center;
+    background-color: rgba(255, 166, 0, 0.065);
+
 
 }
 
@@ -513,16 +539,17 @@ nav{
     grid-template-columns: 1fr 1fr;
     row-gap: 4.8rem;
     column-gap: 8rem;
-    background-color: #a3ffab70;
+
 
 
 }
 .testimonial{
     padding: 2rem;
+    background-color: #a3ffab70;
+    border-radius: 1rem;
 }
 .testimonials-container{
     padding: 4.6rem;
-
 }
 .testimonial-img{
     width: 6.4rem;
@@ -532,10 +559,12 @@ nav{
 }
 
 .testimonial-text{
-    font-size: 1.4rem;
+    font-size: 1.6rem;
     line-height: 1.8;
     margin-bottom: 1.6rem;
     font-weight: 500;
+    text-align: justify;
+    text-justify: inter-word;
 }
 .testimonial-name{
     font-size: 1.6rem;
@@ -563,9 +592,51 @@ nav{
 
 }
 
+      /*****************************/
+    /*   PRICE Section      */
+  /*****************************/
+
+.section-pricing{
+    padding: 9.6rem;
+}
+.plan-header{
+    text-align: center;
+    margin-bottom: 4.8rem;
+}
+.plan-name{
+    color: #cf711f;
+    font-weight: 600;
+    font-size: 2rem;
+    text-transform: uppercase;
+    letter-spacing: .75;
+    text-align: center;
+    margin-bottom: 3.2rem;
+
+}
+.plan-price{
+    font-size: 6.2rem;
+    font-weight: 600;
+    color: #333;
+    text-align: center;
+    margin-bottom: 1.6rem;
 
 
+}
+.plan-price span{
+    font-size: 3rem;
+    font-weight: 500;
+}
+.plan-text{
+    font-size: 1.6rem;
+    line-height: 1.8;
+    text-align: center;
+    color: var(--dark-green);
+}
 
+.plan-sign-up{
+    text-align: center;
+    margin-top: 4.8rem;
+}
 
 
 
