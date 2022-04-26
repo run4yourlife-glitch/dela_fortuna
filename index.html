@@ -11,7 +11,9 @@
             <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
             <link rel="preconnect" href="https://fonts.googleapis.com">
             <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-            <link href="https://fonts.googleapis.com/css2?family=Lato&family=Rubik:wght@400;500;600;700&display=swap" rel="stylesheet">
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+            <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Outfit&display=swap" rel="stylesheet">
             <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
             <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
         </body>
@@ -136,34 +138,94 @@
             </section>  
 <!-- Breads -->
             <section class="section_Bread">
-              <div class="container">
-                <span class="subheading subH"><p>Breads</p></span>
-                <h2 class="heading-secondary">Mela's Baked features almost 100 bread recipes.</h2>
-              </div>
-              <div class="container grid grid--3-cols">
-                <div class="list">
+                <div class="container">
+                  <span class="subheading subH"><p>Breads</p></span>
+                  <h2 class="heading-secondary">Mela's Baked features almost 100 bread recipes.</h2>
+                </div>
+              <div class="container grid grid--3-cols margin-bottom-md">
+                <div class="bread">
+                    <img 
+                    src="/img/breads/saltedeggglazedensaymada.jpg" 
+                    alt="cheese ensaymada" 
+                    class="bread-img">
+                  <div class="bread-content">
+                    <div class="bread-tags">
+                      <span class="tag tag--cheese">Cheese</span>
+                    </div>
+                      <p class="bread-title">Salted egg-glazed ensaymada</p>
+                      <ul class="bread-attributes">
+                        <li class="bread-attribute">
+                          <ion-icon name="flame-outline" class="bread-icon"></ion-icon>
+                          <span><strong>650</strong> calories</span>
+                        </li>
+                        <li class="bread-attribute">
+                          <ion-icon name="star-outline" class="bread-icon"></ion-icon>
+                          <span><strong>4.9</strong> rating  (726)</span>
+                        </li>
+                      </ul>
+                    </div>
+                 </div>
+                 <div class="bread">
                   <img 
-                  src="/img/breads/ensaymada1.jpg" 
+                  src="/img/breads/chococrinkles.jpg" 
                   alt="cheese ensaymada" 
                   class="bread-img">
-                  <span class="tag">Cheese</span>
-                  <p class="bread-title">Cheese ensaymada</p>
-                  <ul class="bread-attributes">
-                    
-                    <li class="bread-attribute">
-                      <ion-icon name="flame-outline"></ion-icon>
-                      <span>650 calories</span>
-                    </li>
-                    <li class="bread-attribute">
-                      <ion-icon name="star-outline"></ion-icon>
-                      <span>4.9 rating (726)</span>
-                    </li>
+                <div class="bread-content">
+                  <div class="bread-tags">
+                    <span class="tag tag--choco">Chocolate</span>
+                  </div>
+                    <p class="bread-title">Choco Crinkles</p>
+                    <ul class="bread-attributes">
+                      <li class="bread-attribute">
+                        <ion-icon name="flame-outline" class="bread-icon"></ion-icon>
+                        <span><strong>400</strong> calories</span>
+                      </li>
+                      <li class="bread-attribute">
+                        <ion-icon name="star-outline" class="bread-icon"></ion-icon>
+                        <span><strong>5.0</strong> rating  (866)</span>
+                      </li>
                     </ul>
+                  </div>
+               </div>
+                <!-- LIST -->
+                <div class="list-recipe">
+                  <h3 class="heading-tertiary">Baked by Mela</h3>
+                  <ul class="list">
+                    <li class="list-item">
+                      <ion-icon class="list-icon" name="checkmark-done-outline"></ion-icon>
+                      <span>Bento Cakes</span>
+                    </li>
+                    <li class="list-item">
+                      <ion-icon class="list-icon" name="checkmark-done-outline"></ion-icon>
+                      <span>Cookies</span>
+                    </li>
+                    <li class="list-item">
+                      <ion-icon class="list-icon" name="checkmark-done-outline"></ion-icon>
+                      <span>Espesyal ube-yum Ensaymada</span>
+                    </li>
+                    <li class="list-item">
+                      <ion-icon class="list-icon" name="checkmark-done-outline"></ion-icon>
+                      <span>Banana Bread</span>
+                    </li>
+                    <li class="list-item">
+                      <ion-icon class="list-icon" name="checkmark-done-outline"></ion-icon>
+                      <span>Smores Cookies</span>
+                    </li>
+                    <li class="list-item">
+                      <ion-icon class="list-icon" name="checkmark-done-outline"></ion-icon>
+                      <span>Strawberry Cheesecake</span>
+                    </li>
+                    <li class="list-item">
+                      <ion-icon class="list-icon" name="checkmark-done-outline"></ion-icon>
+                      <span>Oreo cream-cheese cookies</span>
+
                     </li>
                   </ul>
                 </div>
-                <div class="list">Breads</div>
-                <div class="list">List of breads</div>
+              </div>
+              
+              <div class="container all-recipes">
+                <a href="#" class="link">See all recipes &rarr;</a>
               </div>
             </section>
             </main>    

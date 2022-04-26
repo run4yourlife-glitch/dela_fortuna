@@ -76,6 +76,18 @@ body{
 .br1{
     border-radius: 1rem;
 }
+.link{
+    color: #f08c00;
+    font-weight: 1000;
+    transition: .2s ease-in;
+    font-size: 2.6rem;
+}
+.link:hover{
+    color: #6B9D4A;
+    transition: .2s ease-in;
+
+}
+
 .btn:link, .btn:visited{
     display: inline-block;
     background-color: #fff;
@@ -107,7 +119,7 @@ body{
 .btn-full:hover,
 .btn-full:active{
     background-color: var(--light-green);
-    color: var(--dark-green);
+    color: #fff;
     transition: all 0.3s ease-in;
     /* letter-spacing: 1px; */
     /* font-size: 2.1rem; */
@@ -123,6 +135,10 @@ body{
     /* font-size: 2.1rem; */
     /* padding: 1.2rem 2.8rem; */
 }
+.margin-bottom-md{
+    margin-bottom: 4.8rem !important;
+}
+
 /* Typography */
 .country-bread{
     font-size: 2rem;
@@ -390,11 +406,45 @@ nav{
 .section_Bread{
     padding: 9.6rem 0;
 }
+.bread{
+    box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.25);
+    border-radius: 2rem;
+    overflow: hidden;
+    transition: .2s ease-out;
+
+}
+.bread:hover{
+    transform: translateY(2rem);
+    transition: .2s ease-in;
+}
+.bread-content{
+    padding:3.2rem 4.8rem;
+
+}
+.tag{
+    display: inline-block;
+    padding: 0.4rem 0.8rem;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    color:#ffec99;
+    border-radius: 2rem;
+}
+.tag--cheese{
+    background-color: #f08c00;
+}
+.tag--choco{
+    background-color: brown;
+}
+.bread-tags{
+    margin-bottom: 1.2rem;
+    display: flex;
+    gap: 1.4rem;
+}
 .bread-title{
     font-size: 2rem;
     color: var(--dark-green);
     font-weight: 600;
-    margin-bottom: 3.2rem;
+    margin-bottom: 3.2rem;;
 
 }
 .bread-attributes{
@@ -404,15 +454,46 @@ nav{
     gap: 2rem f;
 }
 .bread-attribute{
-    font-size: 2.4rem;
+    font-size:  1.6rem;
+    display: flex;
+    align-items: center;
+    gap: 1.6rem;
+}
+.bread-icon{
+    height: 2.4rem;
+    width: 2.4rem;
+    color: var(--light-green);
 }
 .bread-img{
     width: 100%;
 }
 
+.all-recipes{
+    text-align: center;
+    font-size: 1.8rem;
+}
+.all-recipes>a{
+    text-decoration: none;
+}
+.list{
+    list-style:none;
+    display: flex;
+    flex-direction: column;
+    gap: 1.6rem;
+}
 
+.list-icon{
+    width: 3rem;
+    height: 3rem;
+    color: var(--light-green);
+}
+.list-item{
+    font-size: 1.8rem;
+    display: flex;
+    align-items: center;
+    gap: 1.6rem;
 
-
+}
 
 
 
