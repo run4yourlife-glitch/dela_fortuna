@@ -826,8 +826,98 @@ nav{
 
 
 
+/* Footer */
 
 
+
+
+.footer{
+    padding: 9.6rem 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.201);
+}
+
+
+.grid--footer{
+    grid-template-columns: 2fr 2fr 1fr 1fr 1fr;
+}
+
+
+.logo-col{
+    display: flex;
+    flex-direction: column;
+    gap: 1.8rem;
+}
+
+.social-link{
+    list-style: none;
+    display: flex;
+    gap: 2.4rem;
+}
+
+
+.social-link li a{
+    padding: .5rem;
+}
+.social-account-icon{
+    width: 2.4rem;
+    height: 2.4rem;
+}
+.copyright{
+    font-size: 1.4rem;
+    line-height: 1.6;
+    margin-top: auto;
+}
+
+
+.address-col{
+
+}
+.address-col > address{
+    font-weight: 500;
+}
+.address-col > address > p{
+    font-weight: 500;
+    font-size: 1.6rem;
+    line-height: 1.6;
+    margin-top: 2rem;
+}
+.address-col > address > p >a{
+  text-decoration: none;
+  color: var(--light-green);
+  font-size: 1.6rem;
+}
+
+
+
+
+.footer-heading{
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin-bottom: 3.2rem;
+    color: #000;
+}
+
+.footer-nav{
+    display: flex;
+    flex-direction: column;
+    gap: 2.4rem;
+    list-style: none;
+    color: #111111;
+    transition: .2s ease-in;
+    font-weight: 600;
+
+}
+.footer-link:link,
+.footer-link:visited{
+    text-decoration: none;
+    font-size: 1.6rem;
+    color: var(--dark-green);
+}
+.footer-link:hover{
+    font-weight: 700;
+    color: var(--light-green);
+    transition: .2s ease-in;
+}
 
 
 
