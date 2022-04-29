@@ -8,8 +8,7 @@
     .hero {
       max-width: 120rem;
     }
-  
-    .heading-primary {
+      .heading-primary {
       font-size: 4.4rem;
     }
   
@@ -83,7 +82,7 @@
       width: 60%;
     }
   
-    .delivered-meals {
+    .delivered-boxes {
       justify-content: center;
       margin-top: 3.2rem;
     }
@@ -96,7 +95,7 @@
       font-size: 7.4rem;
     }
   
-    .meal-content {
+    .bread-content {
       padding: 2.4rem 3.2rem 3.2rem 3.2rem;
     }
   
@@ -246,6 +245,21 @@
     .section-hero {
       padding: 2.4rem 0 6.4rem 0;
     }
+    .section-cta{
+      padding: 9.6rem 0;
+    }
+    .hero-text-box{
+
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      gap: 3rem;
+      margin-top: 10rem;
+  }
+    }
+    .section-pricing{
+      padding: 9.6rem 0rem;
+    }
   
     .hero {
       padding: 0 3.2rem;
@@ -253,6 +267,9 @@
   
     .hero-img {
       width: 80%;
+    }
+    .hero-text-box{
+      gap: 2rem;
     }
   
     .logos img {
@@ -278,6 +295,7 @@
     .gallery {
       grid-template-columns: repeat(4, 1fr);
       gap: 1.2rem;
+      padding: 1rem;
     }
   
     .cta {
